@@ -11,9 +11,5 @@ public class MoveDestination : MonoBehaviour
         NavMeshAgent agent = GetComponent<NavMeshAgent>();
         agent.destination = goal.position;
     }
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
+
